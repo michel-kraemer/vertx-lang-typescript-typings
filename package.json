@@ -1,0 +1,30 @@
+{
+  "name": "vertx-lang-typescript-typings",
+  "version": "1.1.0",
+  "private": true,
+  "description": "TypeScript definitions for Vert.x 3.x",
+  "scripts": {
+    "build": "typings bundle --ambient -o out",
+    "lint": "tslint **/*.ts -e \"out/**\" -e \"node_modules/**\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michel-kraemer/vertx-lang-typescript-typings.git"
+  },
+  "keywords": [
+    "Vert.x",
+    "TypeScript",
+    "typings"
+  ],
+  "author": "Michel Kraemer",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/michel-kraemer/vertx-lang-typescript-typings/issues"
+  },
+  "homepage": "https://github.com/michel-kraemer/vertx-lang-typescript-typings",
+  "devDependencies": {
+    "typescript": "^1.7.5",
+    "typings": "^0.8.1"
+  }
+}

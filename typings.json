@@ -1,0 +1,11 @@
+{
+  "name": "vert-lang-typescript",
+  "main": "index.d.ts",
+  "homepage": "https://github.com/michel-kraemer/vertx-lang-typescript",
+  "version": "1.1.0",
+  "ambient": true,
+  "files": [
+    "index.d.ts",
+    "vertx-js/vertx.d.ts"
+  ]
+}
